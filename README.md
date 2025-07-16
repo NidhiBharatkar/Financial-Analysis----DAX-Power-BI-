@@ -13,7 +13,7 @@ The analysis covers various aspects of financial data, including:
 * Credit risk scores based on multiple financial metrics.
 * Churn indicators for inactive clients.
 
-''' 
+```
 Total_of_credit_Transactions =
 CALCULATE(
    SUM(credit_card[Total_trans_Amt]),
@@ -23,7 +23,7 @@ CALCULATE(
    )
 ) 
 
-''' 
+```
 
 
 
