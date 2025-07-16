@@ -199,7 +199,7 @@ RETURN
 #### 12.Credit Risk Score (Based on Avg_Utilization_Ratio, Delinquent Accounts, and Total Revolving Balance)
 * To create the credit risk score, we normalize the revolving balance and then weight the average utilization ratio , delinquent accounts, and normalized revolving balance
 
-** Normalized_revolving__balance
+-- Normalized_revolving__balance
 ```
 normalized_revolving_balance
 ```
