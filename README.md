@@ -13,11 +13,17 @@ The analysis covers various aspects of financial data, including:
 * Credit risk scores based on multiple financial metrics.
 * Churn indicators for inactive clients.
 
-''' Total_of_credit_Transactions =
+''' 
+Total_of_credit_Transactions =
 CALCULATE(
    SUM(credit_card[Total_trans_Amt]),
    FILTER(
       ALL(credit_card),
       credit_card[Week_Start_Date]<= MAX(credit_card[Week_Start_Date])
    )
-) ''' 
+) 
+
+''' 
+
+
+
