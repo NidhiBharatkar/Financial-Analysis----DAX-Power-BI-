@@ -20,4 +20,4 @@ CALCULATE(
       ALL(credit_card),
       credit_card[Week_Start_Date]<= MAX(credit_card[Week_Start_Date])
    )
-)''' 
+) ''' 
